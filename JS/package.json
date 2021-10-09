@@ -1,0 +1,11 @@
+{
+  "name": "jsexamplepackage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node BasicDataType\\IsNaN.js"
+  },
+  "author": "ck",
+  "license": "ISC"
+}
