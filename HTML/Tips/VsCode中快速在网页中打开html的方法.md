@@ -1,1 +1,0 @@
-需要安装插件，之后，选择右击open with live server
