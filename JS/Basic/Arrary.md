@@ -1,3 +1,6 @@
+# 数组
+
+```js
 // 创建Arrary对象的方法
 
 var arr1 = new Array(); // 长为0的空数组
@@ -105,19 +108,20 @@ console.log(arr13.sort(sortNumber).toString()); //1,5,10,25,40,1000
 
 
 /**
+
  * splice(index, howMany, item1, item2, ..., itemx)
  * index : 必需，添加或删除元素的位置
  * howMany ： 要删除的项目的数量
  * item1, item2, ..., itemx 可选，向数组添加的新项目
  * 返回值：Arrary，包含被删除项目的新数组
- */
-var arr14 = new Array(6)
-arr14[0] = "George"
-arr14[1] = "John"
-arr14[2] = "Thomas"
-arr14[3] = "James"
-arr14[4] = "Adrew"
-arr14[5] = "Martin"
+   */
+   var arr14 = new Array(6)
+   arr14[0] = "George"
+   arr14[1] = "John"
+   arr14[2] = "Thomas"
+   arr14[3] = "James"
+   arr14[4] = "Adrew"
+   arr14[5] = "Martin"
 
 var a4 = arr14.splice(2, 1, "chenkang");
 console.log(a4.toString()); // Thomas
@@ -127,3 +131,20 @@ console.log(arr14.toString()); // George,John,chenkang,James,Adrew,Martin
 var arr15 = [1, 2, 3];
 console.log(arr15.toString()); // 1,2,3
 console.log(arr15.toLocaleString()); // 1,2,3
+
+```
+
+## 判断数组中是否有某个元素
+
+```js
+var needA = ["1","3","5"];
+var aA = ["1","2","3","4","5"];
+
+aA.forEach((value, index) => {
+    if(needA.indexOf(value) > -1){        //大于-1就是有
+        console.log(index + "---" + value);
+    }
+});
+```
+
+![image-20211013101017287](Imag/image-20211013101017287.png)
