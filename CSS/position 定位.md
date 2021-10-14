@@ -123,3 +123,8 @@
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190901132642105.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwOTM1NzIz,size_16,color_FFFFFF,t_70)
 
 我们可以看到这个50px不属于盒子模型的一部分，他只是用定位来位移了一部分位置，这也就是relative定位下它俩的区别，并且top/right/bottom/left在relative下也可以使用，但是在默认定位下是不起作用的。
+
+### 有什么用
+
+- 修改元素的位置
+- 
