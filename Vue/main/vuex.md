@@ -1,6 +1,12 @@
 # vuex
 
-参考链接：[VueX（Vue状态管理模式)](https://www.jianshu.com/p/2e5973fe1223)
+参考链接：
+
+[VueX（Vue状态管理模式)](https://www.jianshu.com/p/2e5973fe1223)
+
+[vuex官网](https://vuex.vuejs.org/zh/#%E4%BB%80%E4%B9%88%E6%98%AF-%E7%8A%B6%E6%80%81%E7%AE%A1%E7%90%86%E6%A8%A1%E5%BC%8F)
+
+![vuex](Imag/vuex.png)
 
 ## 准备
 
@@ -363,5 +369,11 @@ store:.
         Astore.js
 ```
 
+## vuex 中dispatch 和 commit 的用法和区别
 
+```
+dispatch：含有异步操作，例如向后台提交数据，写法： this.$store.dispatch('action方法名',值)
+
+commit：同步操作，写法：this.$store.commit('mutations方法名',值)
+```
 
