@@ -95,10 +95,10 @@ flex-direction: row | row-reverse | column | column-reverse;
 
 它可能有4个值。
 
+- `column-reverse`：主轴为垂直方向，起点在下沿。
+- `column`：主轴为垂直方向，起点在上沿。
 - `row`（默认值）：主轴为水平方向，起点在左端。
 - `row-reverse`：主轴为水平方向，起点在右端。
-- `column`：主轴为垂直方向，起点在上沿。
-- `column-reverse`：主轴为垂直方向，起点在下沿。
 
 ### 3.2 flex-wrap属性
 

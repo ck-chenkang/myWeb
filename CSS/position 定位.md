@@ -67,7 +67,13 @@
 
 4，position：fixed，固定定位，**脱离文档流**，这种定位是相对与浏览器的窗口来定位，我们经常会看到网页中右下角有个回顶部的标记，无论鼠标滑轮怎么滑动他都不会改变他的位置。
 
-**以上是我们的4种定位，下来说一点相关的的东西，我们经常会用到position：absolute，他是脱离文档流的不会对文档中的其他布局产生影响，absolute定位下的float：left/right是不起作用的，通常我们会在absolute下用top/right/bottom/left来改变他的位置，很多人认为只有绝对定位下top/right/bottom/left才起作用，其实不然，relative定位之下这几个属性也是可以使用的，在这种情况下这几个属性和margin-top/right/bottom/left的作用是类似的，都可以来改变盒子的位置，那么在relative定位下top和margin-top有什么关系呢？**
+**以上是我们的4种定位，下来说一点相关的的东西，我们经常会用到position：absolute，他是脱离文档流的不会对文档中的其他布局产生影响，absolute定位**
+
+**下的float：left/right是不起作用的，通常我们会在absolute下用top/right/bottom/left来改变他的位置，很多人认为只有绝对定位下top/right/bottom/left**
+
+**才起作用，其实不然，relative定位之下这几个属性也是可以使用的，在这种情况下这几个属性和margin-top/right/bottom/left的作用是类似的，都可以来**
+
+**改变盒子的位置，那么在relative定位下top和margin-top有什么关系呢？**
 
 我们在上面的代码下去掉原来的div3，新加一个盒子div4并且这个盒子和div2是兄弟关系，div2和div4都使用position：relative，代码如下
 
