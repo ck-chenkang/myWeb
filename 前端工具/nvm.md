@@ -25,7 +25,7 @@ npx：npm5.2之后新增的npx命令
 
 下载地址：[nvm github下载地址](https://github.com/coreybutler/nvm-windows/releases)
 
-![在这里插入图片描述](E:\codes\myWeb\前端工具\Imag\20210531232213538.png)
+![在这里插入图片描述](./Imag/20210531232213538.png)
 
 ## **2、安装** 
 
