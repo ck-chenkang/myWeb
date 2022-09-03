@@ -1655,7 +1655,6 @@ Angular 提供了两种不同的方法来通过表单处理用户输入：响应
 
 ```
 ng g service 路径
-1
 ```
 
 - 编写服务
@@ -1721,7 +1720,6 @@ export class AsynchronizationService {
       });
   }
 }
-123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960
 ```
 
 - 服务调用
@@ -1768,8 +1766,6 @@ export class TestComponent implements OnInit {
   }
 
 }
-
-123456789101112131415161718192021222324252627282930313233343536373839404142
 ```
 
 ### 8.2 数据交互
@@ -1784,7 +1780,6 @@ imports: [
     BrowserModule,
     HttpClientModule
 ]
-12345
 ```
 
 - 导入模块
@@ -1795,7 +1790,6 @@ import {HttpClient} from "@angular/common/http";
 constructor(public http:HttpClient) {
 
    }
-12345
 ```
 
 - 前端请求
@@ -1810,7 +1804,6 @@ constructor(public http:HttpClient) {
     console.log(response);
     this.list=response.result;
 });
-123456789
 ```
 
 > Post
@@ -1823,7 +1816,6 @@ imports: [
     BrowserModule,
     HttpClientModule
 ]
-12345
 ```
 
 - 引用模块
@@ -1831,7 +1823,6 @@ imports: [
 ```typescript
 import {HttpClient,HttpHeaders} from "@angular/common/http";
 constructor(public http:HttpClient) { }
-12
 ```
 
 - 前端请求
@@ -1847,7 +1838,6 @@ constructor(public http:HttpClient) { }
   this.http.post(url,{name:'小王',age:'20',httpOptions}).subscribe((Response)=>{console.log(Response)})
 
   }
-12345678910
 ```
 
 > Jsoup
@@ -1861,7 +1851,6 @@ imports: [
     HttpClientModule,
     HttpClientJsonpModule
 ]
-123456
 ```
 
 - 引用模块
@@ -1869,7 +1858,6 @@ imports: [
 ```typescript
 import {HttpClient} from "@angular/common/http";
 constructor(public http:HttpClient) { }
-12
 ```
 
 - 前端调用
@@ -1882,7 +1870,6 @@ constructor(public http:HttpClient) { }
     // 格式：url,回调函数
     this.http.jsonp(api,'callback').subscribe((Response)=>{console.log(Response)})
   }
-1234567
 ```
 
 > axios
@@ -1898,7 +1885,6 @@ cnpm install axios --save
 
 ```
 import axios from 'axios';
-1
 ```
 
 - 前端请求
@@ -1910,7 +1896,6 @@ import axios from 'axios';
     axios.get(api).then(function(response){
     console.log(response)
   })
-123456
 ```
 
 ### 
